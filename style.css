@@ -648,4 +648,8 @@ footer {
     .habilidades__icono:active {
     transform: none; /* Sin transformaciones en estado activo */
     }
+
+    .formacion__icono1 {
+        margin-left: 0.7rem;
+    }
 }
