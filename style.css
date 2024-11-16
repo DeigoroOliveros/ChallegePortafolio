@@ -294,7 +294,7 @@ h2 {
     margin-left: 4.5rem;
 }
 
-.formacion__icono {
+.formacion__icono,.formacion__icono1 {
     width: 22.5rem;
     object-fit: cover; 
     transition: transform 0.3s ease; 
