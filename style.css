@@ -627,7 +627,12 @@ footer {
     .formacion__elemento,
     .aficiones__lista,
     .habilidades__lista {
-        margin-left: -0.96rem;
+        margin-left: -0.70rem;
     }
 
+    .redes__img img:hover,
+    .proyectos__contenedor img:hover,
+    .formacion__icono:hover,  {
+    transform: none;
+    }
 }
