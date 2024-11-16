@@ -630,9 +630,22 @@ footer {
         margin-left: -0.70rem;
     }
 
-    .redes__img img:hover,
-    .proyectos__contenedor img:hover,
-    .formacion__icono:hover,  {
-    transform: none;
+    .aficiones__icono, 
+    .formacion__icono, 
+    .proyectos__contenedor img, 
+    .redes__img img, 
+    .habilidades__icono1, 
+    .habilidades__icono {
+    transition: none; /* Desactiva todas las transiciones */
+    transform: none;  /* Asegúrate de que no haya transformaciones activas */
+    }
+
+    .aficiones__icono:active, 
+    .formacion__icono:active, 
+    .proyectos__contenedor img:active, 
+    .redes__img img:active, 
+    .habilidades__icono1:active, 
+    .habilidades__icono:active {
+    transform: none; /* Sin transformaciones en estado activo */
     }
 }
