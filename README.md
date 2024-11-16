@@ -30,29 +30,27 @@ Juegos 🎮: Disfruto de los videojuegos como una forma de relajarme y conectar.
 🎓 Formación
 Educación Formal:
 
-[Instituto profesional INACAP] – [Carrera o programa] – [Año de egreso]
+Instituto profesional INACAP – Ingeniero mecánico en mantenimiento industrial – [2014]
+
 Cursos y Certificaciones:
 
-Curso de JavaScript Básico – [Plataforma o institución]
-[Otra certificación relevante]
+Cursos de programación – linkedin.com/in/deigoro-oliveros
+
 🛠️ Proyectos
-1. Calculadora en JavaScript
-Un proyecto simple para enseñar y aprender las bases de JavaScript.
+1. Juego Número secreto
+Adivina cúal es el número del 1 al 20, cuando aciertes te dirá el número de intentos, espero que puedas tener sólo 1
 Ver el repositorio
 
-2. Portafolio Personal
-Un sitio web donde muestro mis habilidades y proyectos, desarrollado con HTML, CSS y JavaScript.
-Ver el repositorio
+2. Encriptador de texto
+Adivina cual sería el texto encriptado si escribes "mufatchais graicimesais poberr paisair, bufatentern díai"
 
-3. Challenge Creativo de Arte
-Una colección de obras digitales y tradicionales creadas durante diferentes etapas de mi aprendizaje artístico.
-Ver el repositorio
 
 📬 Contacto
-Correo Electrónico: tuemail@gmail.com
+Correo Electrónico: deigoro.oliveros@gmail.com
 LinkedIn: linkedin.com/in/deigoro-oliveros
 GitHub: github.com/deigoro-oliveros
-Instagram: @deigoro_fotos
+Instagram: @deigoro
+
 ¡Gracias por visitar mi portafolio! Espero que disfrutes explorando mi trabajo tanto como yo disfruté creándolo. 😊
 
 🏷️ Hashtags recomendados
