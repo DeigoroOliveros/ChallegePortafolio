@@ -74,7 +74,22 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+window.addEventListener("resize", () => {
+  const elements = document.querySelectorAll(".aficiones__icono, .formacion__icono, .proyectos__contenedor img, .redes__img img, .habilidades__icono1, .habilidades__icono");
+  
+  if (window.innerWidth <= 480) {
+      elements.forEach(element => {
+          element.style.transform = "none";
+      });
+  } else {
+      elements.forEach(element => {
+          element.style.transform = ""; // Restaura transform si es necesario
+      });
+  }
+});
 
+// Inicialización al cargar la página
+window.dispatchEvent(new Event("resize"));
 
 
 //BOTÓN VOLVER AL INCIO
