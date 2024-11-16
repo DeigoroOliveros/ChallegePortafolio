@@ -1,0 +1,610 @@
+/* ---------------------------- DISEÑO GENERAL ---------------------------- */
+:root {
+    --color-de-fondo-1: #131418;
+    --color-de-link: #F58A42;
+    --color-de-fondo2: #202227;
+    --color-de-texto: #E0E0E0;
+    --color-borde: #cf9573;
+    --font-size-base: 1.8rem;
+    --font-size-titulo: 2.9rem;
+}
+
+/* ---------------------------- ESTILOS GENERALES ---------------------------- */
+body, html {
+    background-color: var(--color-de-fondo-1);
+    color: var(--color-de-texto);
+    font-family: 'Raleway', sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem; 
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    color: var(--color-de-link);
+    text-align: justify;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ---------------------------- BOTÓN VOLVER AL INICIO ---------------------------- */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #555;
+}
+
+/* ---------------------------- MENÚ ---------------------------- */
+.cabecera {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.foto-firma {
+    width: 25rem;
+    margin-top: 1.1rem;
+}
+
+.navegacion {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 1rem; 
+}
+
+.navegacion__lista {
+    display: flex; 
+    padding: 0; 
+    list-style: none; 
+}
+
+.navegacion__elemento {
+    margin: 0 1rem; 
+}
+
+.navegacion__elemento a {
+    font-size: 2.3rem !important;
+    padding: 1.5rem;
+    display: inline-block; 
+    text-align: center;
+    margin-top: -1rem;
+    text-decoration: none; 
+    transition: transform 0.3s ease;
+}
+
+.navegacion__elemento a:hover {
+    transform: scale(1.3);
+}
+
+/* ---------------------------- SECCIONES ---------------------------- */
+section {
+    background-color: var(--color-de-fondo2);
+    border-radius: 3.5rem;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #FF9E57; 
+    font-size: var(--font-size-titulo);
+    text-align: center;
+}
+
+/* ---------------------------- PRESENTACIÓN ---------------------------- */
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.3rem solid var(--color-borde); 
+    border-radius: 3.5rem;
+    margin-top: 3rem;
+    padding: 0 0 3rem;
+    font-size: var(--font-size-base);
+    background-color: var(--color-de-fondo2);
+}
+
+.presentacion__foto {
+    width: 16rem;
+    margin: 1.9rem;
+}
+
+.presentacion__titulo,
+.presentacion__subtitulo {
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+.presentacion__titulo {
+    font-size: var(--font-size-titulo);
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.presentacion__subtitulo {
+    font-size: var(--font-size-base);
+    text-align: justify;
+    margin-bottom: 3.5rem;
+}
+
+/* ---------------------------- SOBRE MI ---------------------------- */
+.sobre-mi {
+    border: 0.3rem solid var(--color-borde); 
+    border-radius: 3.5rem;
+    margin-top: 3rem;
+    padding: 0.9rem 0 3rem;
+    font-size: var(--font-size-base);
+    background-color: var(--color-de-fondo2);
+}
+
+.sobre-mi__titulo {
+    font-style: italic;
+    font-size: var(--font-size-titulo);
+}
+
+.sobre-mi__texto {
+    text-align: justify;
+    padding: 0.8rem 0.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: -0.9rem;
+}
+
+/* ---------------------------- SKILLS ---------------------------- */
+.habilidades {
+    border: 0.3rem solid var(--color-borde); 
+    border-radius: 3.5rem;
+    margin-top: 3rem;
+    font-size: var(--font-size-base);
+    background-color: var(--color-de-fondo2);
+}
+
+.habilidades__titulo1,
+.habilidades__titulo {
+    justify-items: center;
+    font-style: italic;
+    padding: 0 3rem;
+    font-size: var(--font-size-titulo);
+}
+
+.habilidades__lista {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    list-style: none; 
+}
+
+.habilidades__elemento {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 0 1rem; 
+}
+
+.habilidades__icono1, .habilidades__icono2 {
+    width: 12rem; 
+    object-fit: cover; 
+    transition: transform 0.3s ease; 
+}
+
+.habilidades__elemento img {
+    max-width: 50%;
+    height: auto; 
+}
+
+
+.habilidades__elemento img:hover {
+    transform: scale(1.1); 
+}
+
+/* ---------------------------- HOBBIES ---------------------------- */
+.aficiones {
+    border: 0.3rem solid var(--color-borde); 
+    border-radius: 3.5rem;
+    margin-top: 3rem;
+    padding: 0.9rem 0 3rem;
+    font-size: var(--font-size-base);
+    background-color: var(--color-de-fondo2);
+}
+
+.aficiones__titulo {
+    justify-items: center;
+    font-style: italic;
+    padding: 0 3rem;
+    font-size: var(--font-size-titulo);
+}
+
+.aficiones__lista {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    list-style: none; 
+    gap: 2rem; 
+    padding: 0 3rem; 
+}
+
+.aficiones__elemento {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 0 1rem;
+}
+
+.aficiones__icono { 
+    width: 8.5rem !important; 
+    height: 8.5rem !important;
+    object-fit: cover; 
+    margin-bottom: 1rem; 
+}
+
+/* ------------------------------ FORMACIÓN -------------------------------- */
+.formacion {
+    border: 0.3rem solid var(--color-borde); 
+    border-radius: 3.5rem;
+    margin-top: 3rem;
+    padding: 0.9rem 0 3rem;
+    font-size: var(--font-size-base);
+    background-color: var(--color-de-fondo2);
+}
+
+.formacion__titulo {
+    justify-items: center;
+    font-style: italic;
+    padding: 0 3rem;
+    font-size: var(--font-size-titulo);
+}
+
+.formacion__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 2rem;
+    padding: 0 3rem;
+}
+
+.formacion__elemento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 1.5rem;
+    padding: 1rem 0;
+    max-width: 100%;
+    margin-left: 4.5rem;
+}
+
+.formacion__icono {
+    width: 22.5rem;
+    object-fit: cover; 
+    transition: transform 0.3s ease; 
+}
+
+.formacion__icono:hover {
+    transform: scale(1.3); 
+}
+
+.formacion__nombre {
+    font-size: 1.4rem; 
+    font-weight: bold; 
+    text-align: left; 
+}
+
+.formacion__detalle {
+    font-size: 1em; 
+    color: #7f8c8d; 
+    margin: 5px 0 0; 
+    text-align: left; 
+}
+
+/* ---------------------------- PROYECTOS ---------------------------- */
+.proyectos {
+    border: 0.3rem solid var(--color-borde); 
+    border-radius: 3.5rem;
+    margin-top: 3rem;
+    padding: 0.9rem 0 3rem;
+    font-size: var(--font-size-base);
+    background-color: var(--color-de-fondo2);
+}
+
+
+.proyectos__titulo {
+    justify-items: center;
+    font-style: italic;
+    padding: 0 3rem;
+    font-size: var(--font-size-titulo);
+}
+
+
+.proyectos__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 0 3rem;
+    margin-bottom: 2rem;
+    margin-left: 4.5rem;
+}
+
+.proyectos__contenedor img {
+    width: 22.5rem;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.proyectos__contenedor img:hover {
+    transform: scale(1.3);
+}
+
+/* Nombre del proyecto */
+.proyectos__nombre {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Descripción del proyecto */
+.proyectos__descripcion {
+    color: #7f8c8d;
+    margin-top: 0.1rem;
+}
+
+/* ---------------------------- CONTACTO ---------------------------- */
+.contacto {
+    border: 0.3rem solid var(--color-borde); 
+    border-radius: 3.5rem;
+    margin-top: 3rem;
+    padding: 0.9rem 0 3rem;
+    font-size: var(--font-size-base);
+    background-color: var(--color-de-fondo2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto__campo {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.contacto__campo--textarea {
+    resize: vertical;
+}
+
+.contacto__boton {
+    background-color: var(--color-borde); 
+    color: #ffffff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+/* ---------------------------- FOOTER ---------------------------- */
+footer {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.redes {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: var(--font-size-base);
+}
+
+.redes__img img {
+    width: 4.5rem;
+    height: auto;
+    transition: transform 0.3s ease; 
+}
+
+.redes__img img:hover {
+    transform: scale(1.3); 
+}
+
+/* ---------------------------- TRANSICIÓN ---------------------------- */
+.habilidades__elemento:hover {
+    transform: scale(1.1); 
+}
+
+.habilidades__icono1, .habilidades__icono {
+    width: 12rem; 
+    object-fit: cover; 
+    transition: transform 0.3s ease; 
+}
+
+.habilidades__elemento img:hover {
+    transform: scale(1.1); 
+}
+
+
+/* ---------------------------- MITAD PANTALLA ---------------------------- */
+
+@media (max-width: 1360px) {
+.navegacion__lista {
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+/* ---------------------------- ESTILOS PARA TABLETS ---------------------------- */
+@media (max-width: 768px) {
+    :root {
+        --font-size-base: 1.5rem;
+        --font-size-titulo: 2.1rem;
+    }
+
+    body, html {
+        margin-left: 0.9rem;
+        margin-right: 0.5rem;
+    }
+
+    .navegacion__elemento a {
+        font-size: 2.4rem !important;
+    }
+
+    .cabecera,
+    .presentacion,
+    .habilidades,
+    .aficiones,
+    .formacion,
+    .proyectos,
+    .contacto,
+    footer {
+        padding: 0.5rem;
+    }
+
+    .proyectos__contenedor,
+    .formacion__elemento,
+    .aficiones__lista,
+    .habilidades__lista {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0.1%;
+    }
+
+    .habilidades__icono1,
+    .habilidades__icono2,
+    .proyectos__contenedor img {
+        width: 18rem;
+    }
+
+    .navegacion__lista {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ---------------------------- ESTILOS PARA MÓVILES ---------------------------- */
+@media (max-width: 480px) {
+    :root {
+        --font-size-base: 1.4rem;
+        --font-size-titulo: 2rem;
+    }
+
+    body, html {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .navegacion__elemento {
+        margin: 0.5rem;
+    }
+
+    .navegacion__elemento a {
+        font-size: 2.6rem !important;
+    }
+
+    .navegacion {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .navegacion__lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cabecera,
+    .presentacion,
+    .habilidades,
+    .aficiones,
+    .formacion,
+    .proyectos,
+    .contacto,
+    footer {
+        padding: 0.1rem;
+    }
+
+    h2,
+    .proyectos__titulo,
+    .sobre-mi__titulo,
+    .habilidades__titulo,
+    .aficiones__titulo,
+    .formacion__titulo {
+        font-size: var(--font-size-titulo);
+        text-align: center;
+    }
+
+    .proyectos__contenedor,
+    .formacion__elemento,
+    .aficiones__lista,
+    .habilidades__lista {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0.5rem;
+    }
+
+    .habilidades__icono1,
+    .habilidades__icono2,
+    .proyectos__contenedor img,
+    .aficiones__icono {
+        width: 10rem;
+    }
+
+    .proyectos__descripcion,
+    .sobre-mi__texto,
+    .presentacion__subtitulo {
+        font-size: var(--font-size-base);
+        padding: 0.3rem;
+        text-align: justify;
+        margin-left: 1.7rem;
+        margin-right: 1.7rem;
+    }
+
+    .contacto__campo {
+        border: none;
+        border-bottom: 1px solid #ccc;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        width: 90%;
+        text-align: center;
+        margin-left: 0.9rem;
+    }
+
+    .contacto__boton {
+        margin-left: 11rem;
+    }
+
+    .back-to-top {
+        margin-right: 1.5rem;
+    }
+
+    .proyectos__descripcion{
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+    }
+
+    .back-to-top{
+        margin-right: -0.7rem;
+    } 
+}
