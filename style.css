@@ -649,8 +649,8 @@ footer {
     transform: none; /* Sin transformaciones en estado activo */
     }
 
-    .formacion__icono1 {
-        margin-left: 3%;
+    .formacion__icono1, .formacion__icono {
+        width: 100%;
     }
 
     @media screen and (max-width: 480px) {
