@@ -26,10 +26,11 @@ Arte 🎭: Expresar creatividad mediante diferentes medios.
 Viajar 🌍: Descubrir culturas y lugares únicos.
 Música 🎶: Fanático del rock, siempre buscando nuevos sonidos.
 Juegos 🎮: Disfruto de los videojuegos como una forma de relajarme y conectar.
+
 🎓 Formación
 Educación Formal:
 
-[Nombre de tu escuela/universidad] – [Carrera o programa] – [Año de egreso]
+[Instituto profesional INACAP] – [Carrera o programa] – [Año de egreso]
 Cursos y Certificaciones:
 
 Curso de JavaScript Básico – [Plataforma o institución]
