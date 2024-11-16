@@ -1,11 +1,14 @@
 
-🌟 Mi Portafolio
+🌟 Mi Portafolio:
+
 ¡Bienvenid@ a mi portafolio! Aquí encontrarás todo lo que necesitas saber sobre mí: desde mi experiencia y habilidades hasta los proyectos que he desarrollado. 🚀
 
-📖 Sobre Mí
+📖 Sobre Mí:
+
 Soy muy motivado y entusiasta, con un inicio sólido en el desarrollo web y conocimientos básicos en HTML, CSS y JavaScript. Además, cuento con experiencia en la creación de prompts optimizados para ChatGPT, habilidad que utilizo para mejorar la interacción en proyectos de IA. Mi objetivo es seguir aprendiendo y contribuir en proyectos dinámicos donde pueda aportar creatividad y fortalecer mis conocimientos en programación y experiencia de usuario. Estoy emocionado por la oportunidad de aplicar mis habilidades en un entorno profesional y continuar mi desarrollo en el área tecnológica.
 
-💻 Habilidades
+💻 Habilidades:
+
 Lenguajes y Tecnologías:
 HTML, CSS, JavaScript
 Creación de prompts efectivos para IA
@@ -15,7 +18,9 @@ Adobe Photoshop (básico, orientado a la fotografía)
 Otros:
 Resolución de problemas
 Comunicación y trabajo en equipo
-🎨 Hobbies
+
+🎨 Hobbies:
+
 Fotografía 📷: Capturar momentos y explorar nuevas perspectivas.
 Arte 🎭: Expresar creatividad mediante diferentes medios.
 Viajar 🌍: Descubrir culturas y lugares únicos.
