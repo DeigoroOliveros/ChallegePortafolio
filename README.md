@@ -34,7 +34,7 @@ Instituto profesional INACAP – Ingeniero mecánico en mantenimiento industrial
 
 Cursos y Certificaciones:
 
-Cursos de programación – linkedin.com/in/deigoro-oliveros
+Cursos de programación – [DeigoroOliveros](https://www.linkedin.com/in/deigoro-oliveros/)
 
 🛠️ Proyectos
 1. Juego Número secreto
@@ -47,9 +47,8 @@ Adivina cual sería el texto encriptado si escribes "mufatchais graicimesais pob
 
 📬 Contacto
 Correo Electrónico: deigoro.oliveros@gmail.com
-LinkedIn: linkedin.com/in/deigoro-oliveros
-GitHub: github.com/deigoro-oliveros
-Instagram: @deigoro
+LinkedIn: [DeigoroOliveros](https://www.linkedin.com/in/deigoro-oliveros/)
+Instagram: [Deigoro](https://www.instagram.com/deigoro/)
 
 ¡Gracias por visitar mi portafolio! Espero que disfrutes explorando mi trabajo tanto como yo disfruté creándolo. 😊
 
