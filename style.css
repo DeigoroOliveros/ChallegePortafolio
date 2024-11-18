@@ -82,7 +82,7 @@ html {
 
 .navegacion__elemento a {
     font-size: 2.3rem !important;
-    padding: 1.5rem;
+    padding: 0.8rem;
     display: inline-block; 
     text-align: center;
     margin-top: -1rem;
@@ -294,7 +294,7 @@ h2 {
     margin-left: 4.5rem;
 }
 
-.formacion__icono {
+.formacion__icono,.formacion__icono1 {
     width: 22.5rem;
     object-fit: cover; 
     transition: transform 0.3s ease; 
@@ -627,7 +627,91 @@ footer {
     .formacion__elemento,
     .aficiones__lista,
     .habilidades__lista {
-        margin-left: -0.96rem;
+        margin-left: -0.70rem;
     }
+
+    .aficiones__icono, 
+    .formacion__icono, 
+    .proyectos__contenedor img, 
+    .redes__img img, 
+    .habilidades__icono1, 
+    .habilidades__icono {
+    transition: none; /* Desactiva todas las transiciones */
+    transform: none;  /* Asegúrate de que no haya transformaciones activas */
+    }
+
+    .aficiones__icono:active, 
+    .formacion__icono:active, 
+    .proyectos__contenedor img:active, 
+    .redes__img img:active, 
+    .habilidades__icono1:active, 
+    .habilidades__icono:active {
+    transform: none; /* Sin transformaciones en estado activo */
+    }
+
+    .formacion__icono1, .formacion__icono {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 480px) {
+        .contacto__boton {
+            display: block;
+            margin: 0 auto; /* Centra el botón horizontalmente */
+        }
+    
+        .proyectos {
+            margin: 3rem auto; /* Centra horizontalmente el contenedor */
+            padding: 0.9rem 1rem 3rem; /* Ajusta el padding para adaptarse a pantallas pequeñas */
+            width: 90%; /* Hace que el contenedor ocupe el 90% del ancho */
+        }
+    
+        .proyectos__titulo {
+            text-align: center; /* Centra el título */
+            padding: 0 1rem;
+        }
+    
+        .proyectos__contenedor {
+            align-items: center; /* Centra los elementos internamente */
+            margin-left: 0; /* Elimina el margen adicional a la izquierda */
+            padding: 0;
+        }
+    
+        .proyectos__contenedor img {
+            width: 100%; /* Hace que las imágenes sean responsivas */
+            max-width: 22.5rem; /* Mantiene el tamaño máximo */
+        }
+    
+        .proyectos__nombre {
+            text-align: center; /* Centra el texto del nombre del proyecto */
+        }
+    
+        .aficiones {
+            margin: 3rem auto; /* Centra horizontalmente el contenedor */
+            padding: 0.9rem 1rem 3rem; /* Ajusta el padding */
+            width: 90%; /* Hace que el contenedor ocupe el 90% del ancho */
+        }
+    
+        .aficiones__titulo {
+            text-align: center; /* Centra el título */
+            padding: 0 1rem;
+        }
+    
+        .aficiones__lista {
+            flex-direction: column; /* Cambia el layout a columna */
+            align-items: center; /* Centra los elementos */
+            gap: 1.5rem;
+            padding: 0;
+        }
+    
+        .aficiones__elemento {
+            margin: 0; /* Elimina márgenes laterales */
+        }
+    
+        .aficiones__icono {
+            width: 6rem !important; /* Reduce el tamaño de los iconos */
+            height: 6rem !important;
+        }
+    }
+
 
 }
