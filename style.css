@@ -607,4 +607,27 @@ footer {
     .back-to-top{
         margin-right: -0.7rem;
     } 
+
+    .redes {
+        margin-left: -2.5rem;
+    }
+    
+    .redes__img img {
+        width: 4.5rem;
+        height: auto;
+        transition: transform 0.3s ease; 
+    }
+
+    .foto-firma {
+        width: 18rem;
+        margin-top: 1rem;
+    }
+
+    .proyectos__contenedor,
+    .formacion__elemento,
+    .aficiones__lista,
+    .habilidades__lista {
+        margin-left: -0.96rem;
+    }
+
 }
