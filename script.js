@@ -8,7 +8,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
   });
   
-  // Seleccionamos el formulario
+// Seleccionamos el formulario
 const form = document.getElementById('contact-form');
 
 // Agregamos un evento al formulario para manejar el envío
