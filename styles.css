@@ -1,0 +1,274 @@
+/* styles.css */
+
+/* Desplazamiento suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fuente global */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* Estilo global */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #344e41; /* Verde oscuro */
+  color: #fff;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-size: 1.25rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #dad7cd;
+}
+
+/* Secciones */
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+#presentacion {
+  background-color: #dad7cd;
+  font-size: 1.25rem;
+}
+
+#sobre-mi, #formacion {
+  background-color: #a3b18a;
+}
+
+#sobre-mi p {
+  margin: 0 auto;
+  line-height: 1.5;
+  max-width: 1300px;
+  font-size: 1.25rem;
+}
+
+#habilidades, #contacto {
+  background-color: #588157;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+#hobbies {
+  background-color: #3a5a40;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+#proyectos {
+  background-color: #a3b18a;
+  color: #000000;
+  font-size: 1.25rem;
+}
+
+#formacion {
+  background-color: #344e41;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+/* Iconos de habilidades y hobbies */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+.icon-grid img {
+  width: 115px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 8px;
+}
+
+.icon-grid div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-grid img:hover {
+  transform: scale(1.2);
+}
+
+/* Proyectos */
+#proyectos h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+#proyectos p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #344e41;
+}
+
+.proyectos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.proyecto {
+  background-color: #dad7cd;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.proyecto img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s;
+}
+
+.proyecto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.proyecto h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #344e41;
+}
+
+.proyecto p {
+  font-size: 0.9rem;
+  color: #3a5a40;
+}
+
+
+/* Formación */
+.formacion-item img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  transition: transform 0.3s;
+}
+
+.formacion-item {
+  text-align: center;
+}
+
+.formacion-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Formulario de contacto */
+#contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#contact-form label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+  color: #fff;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contact-form button {
+  background-color: #3a5a40;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#contact-form button:hover {
+  background-color: #344e41;
+}
+
+/* Footer */
+footer {
+  background-color: #344e41;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.redes {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.redes__img img {
+  width: 4.5rem;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.redes__img img:hover {
+  transform: scale(1.3);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  section {
+    padding: 1.5rem;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .icon-grid img,
+  .proyecto img {
+    max-width: 150px;
+  }
+
+  .proyectos-grid,
+  .icon-grid {
+    gap: 1rem;
+  }
+}
